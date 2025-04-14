@@ -83,7 +83,7 @@ const GasHistoryChart = ({ histories }: { histories: Array<GasPriceHistoryPayloa
               tickLine={false}
               axisLine={false}
               tickMargin={8}
-              tickCount={6}
+              tickCount={5}
               className="md:text-base font-bold"
             />
             <ChartTooltip
