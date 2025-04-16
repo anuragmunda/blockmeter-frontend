@@ -1,7 +1,7 @@
 import { create } from "zustand";
 import { io, Socket } from "socket.io-client";
 
-const bacekndUrl = "http://localhost:3001"
+const bacekndUrl = process.env.NEXT_PUBLIC_BACKEND_URL;
 type SocketStoreState = {
     socket: Socket | null;
 }
