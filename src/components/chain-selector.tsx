@@ -20,7 +20,7 @@ const ChainSelector = () => {
             <SelectTrigger className="cursor-pointer w-full md:w-[50%] py-6 px-6 text-lg bg-white/10 backdrop-blur-lg border border-white/20 shadow-xl rounded-2xl text-white font-medium transition-all hover:bg-white/20">
                 <SelectValue />
             </SelectTrigger>
-            <SelectContent className="border-white/20 bg-white/30 text-white backdrop-blur-md shadow-lg rounded-2xl overflow-hidden">
+            <SelectContent className="border-white/20 bg-black/40 text-white backdrop-blur-md shadow-lg rounded-2xl overflow-hidden">
                 {chainList.map((chain) => (
                     <SelectItem
                         key={chain.chainId}
