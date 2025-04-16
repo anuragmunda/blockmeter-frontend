@@ -1,36 +1,41 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌐 Gas Fee Analyzer Frontend (Next.js)
 
-## Getting Started
+This is the **frontend** for the Gas Fee Analyzer web app.  
+It provides a beautiful UI for viewing live gas prices, visualizing historical trends, and tracking gas fee estimates.
 
-First, run the development server:
+---
 
+## 🖼 Preview
+
+![Gas Fee Analyzer UI](https://i.ibb.co/Jjhsb8wr/Screenshot-191.png)
+
+---
+
+## 🖼 Features
+
+- 🔁 Live gas fee updates via WebSocket
+- 📈 Historical gas price charts
+- 🕒 Countdown to next update (synced with backend cron)
+- 🌐 Multi-chain support (Ethereum, Polygon, Arbitrum, etc.)
+- 📊 FAQ section
+
+---
+
+## ⚙️ Tech Stack
+
+- **Next.js** (React + TypeScript)
+- **Tailwind CSS** for styling
+- **Socket.io Client** for WebSocket
+- **Recharts/Chart.js** for graphs
+- **Zustand** for global state (chain selection)
+- **Deployed on [Vercel](https://blockmeter.vercel.app)**
+
+---
+
+## 🛠 Setup Instructions
+
+### 1. Install & Setup
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+cd frontend
+npm install
+cp .env.local.example .env.local
