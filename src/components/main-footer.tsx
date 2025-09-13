@@ -20,7 +20,7 @@ const MainFooter = () => {
                         <Link href="https://github.com/AnuragMunda" className="text-slate-300 hover:text-indigo-400 transition-colors p-2 bg-slate-800/50 rounded-full">
                             <Github size={20} />
                         </Link>
-                        <Link href="https://x.com/Anurag_MND" className="text-slate-300 hover:text-indigo-400 transition-colors p-2 bg-slate-800/50 rounded-full">
+                        <Link href="https://x.com/0xShenigun" className="text-slate-300 hover:text-indigo-400 transition-colors p-2 bg-slate-800/50 rounded-full">
                             <Twitter size={20} />
                         </Link>
                         <Link href="https://www.linkedin.com/in/anuragmunda/" className="text-slate-300 hover:text-indigo-400 transition-colors p-2 bg-slate-800/50 rounded-full">
